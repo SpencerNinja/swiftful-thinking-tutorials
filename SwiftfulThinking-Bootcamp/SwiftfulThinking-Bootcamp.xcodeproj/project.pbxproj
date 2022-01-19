@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B56A5432798C5CE0028DCC9 /* IconsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B56A5422798C5CE0028DCC9 /* IconsBootcamp.swift */; };
 		0B7BB04A2798BF030099417E /* GradientsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7BB0492798BF030099417E /* GradientsBootcamp.swift */; };
 		0BB05ACB2798AB1900D7BE34 /* SwiftfulThinking_BootcampApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB05ACA2798AB1900D7BE34 /* SwiftfulThinking_BootcampApp.swift */; };
 		0BB05ACD2798AB1900D7BE34 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB05ACC2798AB1900D7BE34 /* ContentView.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B56A5422798C5CE0028DCC9 /* IconsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconsBootcamp.swift; sourceTree = "<group>"; };
 		0B7BB0492798BF030099417E /* GradientsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientsBootcamp.swift; sourceTree = "<group>"; };
 		0BB05AC72798AB1900D7BE34 /* SwiftfulThinking-Bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftfulThinking-Bootcamp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BB05ACA2798AB1900D7BE34 /* SwiftfulThinking_BootcampApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftfulThinking_BootcampApp.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				0BB05ACC2798AB1900D7BE34 /* ContentView.swift */,
 				0BB05ADA2798B0FF00D7BE34 /* ShapesBootcamp.swift */,
 				0BBE27B52798B54100A2E629 /* ColorsBootcamp.swift */,
+				0B56A5422798C5CE0028DCC9 /* IconsBootcamp.swift */,
 				0B7BB0492798BF030099417E /* GradientsBootcamp.swift */,
 				0BB05AD82798ABBB00D7BE34 /* TextBootcamp.swift */,
 				0BB05ACE2798AB1B00D7BE34 /* Assets.xcassets */,
@@ -155,6 +158,7 @@
 				0BB05ACD2798AB1900D7BE34 /* ContentView.swift in Sources */,
 				0BB05AD92798ABBB00D7BE34 /* TextBootcamp.swift in Sources */,
 				0BB05ACB2798AB1900D7BE34 /* SwiftfulThinking_BootcampApp.swift in Sources */,
+				0B56A5432798C5CE0028DCC9 /* IconsBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
