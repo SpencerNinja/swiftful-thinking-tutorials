@@ -8,7 +8,7 @@
 import Foundation
 import MapKit
 
-struct Location {
+struct Location: Identifiable {
     
     let name: String
     let cityName: String
@@ -17,9 +17,22 @@ struct Location {
     let imageNames: [String]
     let link: String
     
+    // Cannot use this method of ID because each time we create the same location, it would give it a random id, but we need the id to stay the same if the locations are the same.
+    // let id = UUID().uuidString
+    
+    // USE this method instead:
+    var id: String {
+        // name = "Colosseum"
+        // cityName = "Rome"
+        // id = "ColosseumRome"
+        name + cityName
+    }
+    
 }
 
 /*
+ EXAMPLE of data object
+ 
  Location(
      name: "Colosseum",
      cityName: "Rome",
