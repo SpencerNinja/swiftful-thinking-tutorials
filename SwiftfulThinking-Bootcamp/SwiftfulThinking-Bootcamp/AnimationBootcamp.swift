@@ -17,8 +17,8 @@ struct AnimationBootcamp: View {
                 withAnimation(
                     Animation
                         .default
-//                        .repeatCount(5, autoreverses: true)
-                        .repeatForever(autoreverses: true)
+                        .repeatCount(3, autoreverses: true)
+//                        .repeatForever(autoreverses: true)
                 ) {
                     isAnimated.toggle()
                 }
