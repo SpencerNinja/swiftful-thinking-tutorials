@@ -12,7 +12,8 @@ struct SwiftfulThinking_BootcampApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            TextfieldBootcamp()
+//            TextfieldBootcamp()
+            PickerBootcamp()
         }
     }
 }
