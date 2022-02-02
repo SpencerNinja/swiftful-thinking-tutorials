@@ -44,6 +44,7 @@
 		0BEC6A4227A9EF6B00A908CF /* ActionsheetBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC6A4127A9EF6B00A908CF /* ActionsheetBootcamp.swift */; };
 		0BEC6A4427A9F7BA00A908CF /* ContextMenuBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BEC6A4327A9F7BA00A908CF /* ContextMenuBootcamp.swift */; };
 		0BF867532798D32400D6192B /* BackgroundAndOverlayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF867522798D32400D6192B /* BackgroundAndOverlayBootcamp.swift */; };
+		0BF900F027AB2B8D00F5F651 /* TextfieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF900EF27AB2B8D00F5F651 /* TextfieldBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,7 @@
 		0BEC6A4127A9EF6B00A908CF /* ActionsheetBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionsheetBootcamp.swift; sourceTree = "<group>"; };
 		0BEC6A4327A9F7BA00A908CF /* ContextMenuBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContextMenuBootcamp.swift; sourceTree = "<group>"; };
 		0BF867522798D32400D6192B /* BackgroundAndOverlayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayBootcamp.swift; sourceTree = "<group>"; };
+		0BF900EF27AB2B8D00F5F651 /* TextfieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				0BEC6A3F27A9E82E00A908CF /* AlertBootcamp.swift */,
 				0BEC6A4127A9EF6B00A908CF /* ActionsheetBootcamp.swift */,
 				0BEC6A4327A9F7BA00A908CF /* ContextMenuBootcamp.swift */,
+				0BF900EF27AB2B8D00F5F651 /* TextfieldBootcamp.swift */,
 				0BB05ACE2798AB1B00D7BE34 /* Assets.xcassets */,
 				0BB05AD02798AB1B00D7BE34 /* Preview Content */,
 			);
@@ -264,6 +267,7 @@
 				0B3F623C2799FFD4006852FC /* StacksBootcamp.swift in Sources */,
 				0B52807527A3427600549EA7 /* BindingBootcamp.swift in Sources */,
 				0B868D2E27A1E15F0013A218 /* SpacerBootcamp.swift in Sources */,
+				0BF900F027AB2B8D00F5F651 /* TextfieldBootcamp.swift in Sources */,
 				0B039BF127A8985500A080F3 /* AnimationBootcamp.swift in Sources */,
 				0B868D3627A1F7910013A218 /* GridBootcamp.swift in Sources */,
 				0BEC6A3C27A9D56E00A908CF /* NavigationViewBootcamp.swift in Sources */,
