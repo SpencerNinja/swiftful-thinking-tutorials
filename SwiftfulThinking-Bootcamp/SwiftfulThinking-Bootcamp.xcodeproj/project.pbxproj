@@ -46,6 +46,7 @@
 		0BF867532798D32400D6192B /* BackgroundAndOverlayBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF867522798D32400D6192B /* BackgroundAndOverlayBootcamp.swift */; };
 		0BF900F027AB2B8D00F5F651 /* TextfieldBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF900EF27AB2B8D00F5F651 /* TextfieldBootcamp.swift */; };
 		0BF900F227AB32A000F5F651 /* TextEditorBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF900F127AB32A000F5F651 /* TextEditorBootcamp.swift */; };
+		0BF900F427AB3F7300F5F651 /* ToggleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BF900F327AB3F7300F5F651 /* ToggleBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		0BF867522798D32400D6192B /* BackgroundAndOverlayBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundAndOverlayBootcamp.swift; sourceTree = "<group>"; };
 		0BF900EF27AB2B8D00F5F651 /* TextfieldBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldBootcamp.swift; sourceTree = "<group>"; };
 		0BF900F127AB32A000F5F651 /* TextEditorBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextEditorBootcamp.swift; sourceTree = "<group>"; };
+		0BF900F327AB3F7300F5F651 /* ToggleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 				0BEC6A4327A9F7BA00A908CF /* ContextMenuBootcamp.swift */,
 				0BF900EF27AB2B8D00F5F651 /* TextfieldBootcamp.swift */,
 				0BF900F127AB32A000F5F651 /* TextEditorBootcamp.swift */,
+				0BF900F327AB3F7300F5F651 /* ToggleBootcamp.swift */,
 				0BB05ACE2798AB1B00D7BE34 /* Assets.xcassets */,
 				0BB05AD02798AB1B00D7BE34 /* Preview Content */,
 			);
@@ -266,6 +269,7 @@
 				0BB05ACD2798AB1900D7BE34 /* ContentView.swift in Sources */,
 				0B868D3227A1ECC90013A218 /* ForEachBootcamp.swift in Sources */,
 				0BB05AD92798ABBB00D7BE34 /* TextBootcamp.swift in Sources */,
+				0BF900F427AB3F7300F5F651 /* ToggleBootcamp.swift in Sources */,
 				0BB05ACB2798AB1900D7BE34 /* SwiftfulThinking_BootcampApp.swift in Sources */,
 				0B039BF527A8A1CA00A080F3 /* TransitionBootcamp.swift in Sources */,
 				0B3F623C2799FFD4006852FC /* StacksBootcamp.swift in Sources */,
