@@ -14,6 +14,15 @@ struct PickerBootcamp: View {
         "Most Recent", "Most Popular", "Most Liked"
     ]
     
+    init() {
+        UISegmentedControl.appearance().selectedSegmentTintColor = UIColor.red
+        
+        let attributes: [NSAttributedString.Key:Any] = [
+            .foregroundColor : UIColor.white
+        ]
+        UISegmentedControl.appearance().setTitleTextAttributes(attributes, for: .selected)
+    }
+    
     // Part of METHOD 2
 //    var numberList = ["1", "2", "3", "4"]
 //    @State private var selectedNumber = "1"
@@ -50,29 +59,46 @@ struct PickerBootcamp: View {
 //            //.background(Color.gray.opacity(0.1))
 //
 //        }
+        
+//        Picker(
+//            selection: $selection,
+//            label:
+//                HStack {
+//                    Text("Filter:")
+//                    Text(selection)
+//                }
+//                .font(.headline)
+//                .foregroundColor(.white)
+//                .padding()
+//                .padding(.horizontal)
+//                .background(Color.blue)
+//                .cornerRadius(10)
+//                .shadow(color: Color.blue.opacity(0.3), radius: 10, x: 0, y: 10)
+//            ,
+//            content: {
+//                ForEach(filterOptions, id: \.self) { option in
+//                    HStack {
+//                        Text(option)
+//                        Image(systemName: "heart.fill")
+//                    }
+//                    .tag(option)
+//                }
+//            }
+//        )
+//        .pickerStyle(MenuPickerStyle())
+        
         Picker(
-            selection: .constant($selection),
-            label:
-                HStack {
-                    Text("Filter:")
-                    Text(selection)
-                }
-                .font(.headline)
-                .foregroundColor(.white)
-                .padding()
-                .padding(.horizontal)
-                .background(Color.blue)
-                .cornerRadius(10)
-                .shadow(color: Color.blue.opacity(0.3), radius: 10, x: 0, y: 10)
-            ,
+            selection: $selection,
+            label: Text("Picker"),
             content: {
-                ForEach(filterOptions, id: \.self) { option in
-                    Text(option)
-                        .tag(option)
+                ForEach(filterOptions.indices) { index in
+                    Text(filterOptions[index])
+                        .tag(filterOptions[index])
                 }
             }
         )
-        .pickerStyle(MenuPickerStyle())
+            .pickerStyle(.segmented)
+            //.background(Color.red)
         
         
         // METHOD 2
