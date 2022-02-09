@@ -19,7 +19,7 @@ struct ModelBootcamp: View {
     
     @State var users: [UserModel] = [
         //"Nick", "Emily", "Samantha", "Chris"
-        UserModel(displayName: "Nick", userName: "nick123", followerCount: 100, isVerified: false),
+        UserModel(displayName: "Spencer", userName: "spencer736", followerCount: 17, isVerified: false),
         UserModel(displayName: "Emily", userName: "itsemily1995", followerCount: 55, isVerified: true),
         UserModel(displayName: "Samantha", userName: "ninja", followerCount: 355, isVerified: false),
         UserModel(displayName: "Chris", userName: "chrish2009", followerCount: 88, isVerified: true)

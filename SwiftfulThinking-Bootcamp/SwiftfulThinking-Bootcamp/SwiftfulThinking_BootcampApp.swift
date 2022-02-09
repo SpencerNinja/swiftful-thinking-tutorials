@@ -13,7 +13,8 @@ struct SwiftfulThinking_BootcampApp: App {
         WindowGroup {
 //            ContentView()
 //            TextfieldBootcamp()
-            PickerBootcamp()
+//            PickerBootcamp()
+            AppStorageBootcamp()
         }
     }
 }
