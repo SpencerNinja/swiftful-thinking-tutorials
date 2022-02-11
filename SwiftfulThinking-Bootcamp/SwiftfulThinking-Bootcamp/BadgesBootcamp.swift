@@ -16,36 +16,36 @@ import SwiftUI
 struct BadgesBootcamp: View {
     var body: some View {
         
-        List {
-            Text("Hello World!")
-                .badge("NEW ITEMS")
-            Text("Hello World!")
-            Text("Hello World!")
-            Text("Hello World!")
-        }
-        
-//        TabView {
-//            Color.red
-//                .tabItem {
-//                    Image(systemName: "heart.fill")
-//                    Text("Hello")
-//                }
-//                .badge(2)
-//
-//            Color.green
-//                .tabItem {
-//                    Image(systemName: "heart.fill")
-//                    Text("Hello")
-//                }
-//                .badge(0)
-//
-//            Color.blue
-//                .tabItem {
-//                    Image(systemName: "heart.fill")
-//                    Text("Hello")
-//                }
-//                .badge("NEW")
+//        List {
+//            Text("Hello World!")
+//                .badge("NEW ITEMS")
+//            Text("Hello World!")
+//            Text("Hello World!")
+//            Text("Hello World!")
 //        }
+        
+        TabView {
+            Color.red
+                .tabItem {
+                    Image(systemName: "heart.fill")
+                    Text("Hello")
+                }
+                .badge(2)
+
+            Color.green
+                .tabItem {
+                    Image(systemName: "heart.fill")
+                    Text("Hello")
+                }
+                .badge(0)
+
+            Color.blue
+                .tabItem {
+                    Image(systemName: "heart.fill")
+                    Text("Hello")
+                }
+                .badge("NEW")
+        }
         
     }
 }
