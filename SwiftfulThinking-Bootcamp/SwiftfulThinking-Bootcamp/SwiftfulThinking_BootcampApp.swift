@@ -16,7 +16,8 @@ struct SwiftfulThinking_BootcampApp: App {
 //            PickerBootcamp()
 //            AppStorageBootcamp()
 //            IntroView()
-            FocusStateBootcamp()
+//            FocusStateBootcamp()
+            SubmitTextFieldBootcamp()
         }
     }
 }
