@@ -12,7 +12,8 @@ struct IntermediateBootCampApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            MagnificationGestureBootcamp()
+//            MagnificationGestureBootcamp()
+            RotationGestureBootcamp()
         }
     }
 }
