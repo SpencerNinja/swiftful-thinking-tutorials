@@ -12,6 +12,7 @@
 		0B068D5327BB05F6001B9EF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B068D5227BB05F6001B9EF2 /* Assets.xcassets */; };
 		0B068D5627BB05F6001B9EF2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B068D5527BB05F6001B9EF2 /* Preview Assets.xcassets */; };
 		0B068D5D27BB0634001B9EF2 /* LongPressGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B068D5C27BB0634001B9EF2 /* LongPressGestureBootcamp.swift */; };
+		0B068D5F27BB0E6C001B9EF2 /* MagnificationGestureBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B068D5E27BB0E6C001B9EF2 /* MagnificationGestureBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		0B068D5227BB05F6001B9EF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0B068D5527BB05F6001B9EF2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0B068D5C27BB0634001B9EF2 /* LongPressGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongPressGestureBootcamp.swift; sourceTree = "<group>"; };
+		0B068D5E27BB0E6C001B9EF2 /* MagnificationGestureBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				0B068D4E27BB05F4001B9EF2 /* IntermediateBootCampApp.swift */,
 				0B068D5027BB05F4001B9EF2 /* ContentView.swift */,
 				0B068D5C27BB0634001B9EF2 /* LongPressGestureBootcamp.swift */,
+				0B068D5E27BB0E6C001B9EF2 /* MagnificationGestureBootcamp.swift */,
 				0B068D5227BB05F6001B9EF2 /* Assets.xcassets */,
 				0B068D5427BB05F6001B9EF2 /* Preview Content */,
 			);
@@ -142,6 +145,7 @@
 			files = (
 				0B068D5127BB05F4001B9EF2 /* ContentView.swift in Sources */,
 				0B068D4F27BB05F4001B9EF2 /* IntermediateBootCampApp.swift in Sources */,
+				0B068D5F27BB0E6C001B9EF2 /* MagnificationGestureBootcamp.swift in Sources */,
 				0B068D5D27BB0634001B9EF2 /* LongPressGestureBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
