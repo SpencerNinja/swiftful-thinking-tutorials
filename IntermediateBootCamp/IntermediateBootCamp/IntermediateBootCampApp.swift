@@ -14,7 +14,8 @@ struct IntermediateBootCampApp: App {
 //            ContentView()
 //            MagnificationGestureBootcamp()
 //            RotationGestureBootcamp()
-            ScrollViewReaderBootcamp()
+//            ScrollViewReaderBootcamp()
+            GeometryReaderBootcamp()
         }
     }
 }
