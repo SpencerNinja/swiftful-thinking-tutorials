@@ -23,6 +23,7 @@
 		0B6C82CE27BC642000333E6B /* SoundsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C82CD27BC642000333E6B /* SoundsBootcamp.swift */; };
 		0B6C82D227BC684000333E6B /* tada.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C82D027BC684000333E6B /* tada.mp3 */; };
 		0B6C82D327BC684000333E6B /* badum.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0B6C82D127BC684000333E6B /* badum.mp3 */; };
+		0B6C82D527BC6A6700333E6B /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C82D427BC6A6700333E6B /* HapticsBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		0B6C82CD27BC642000333E6B /* SoundsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundsBootcamp.swift; sourceTree = "<group>"; };
 		0B6C82D027BC684000333E6B /* tada.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = tada.mp3; sourceTree = "<group>"; };
 		0B6C82D127BC684000333E6B /* badum.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = badum.mp3; sourceTree = "<group>"; };
+		0B6C82D427BC6A6700333E6B /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 				0B6C82C927BC568C00333E6B /* MultipleSheetsBootcamp.swift */,
 				0B6C82CB27BC5F3900333E6B /* MaskBootcamp.swift */,
 				0B6C82CD27BC642000333E6B /* SoundsBootcamp.swift */,
+				0B6C82D427BC6A6700333E6B /* HapticsBootcamp.swift */,
 				0B6C82CF27BC67BB00333E6B /* Sounds */,
 				0B068D5227BB05F6001B9EF2 /* Assets.xcassets */,
 				0B068D5427BB05F6001B9EF2 /* Preview Content */,
@@ -193,6 +196,7 @@
 				0B068D4F27BB05F4001B9EF2 /* IntermediateBootCampApp.swift in Sources */,
 				0B068D5F27BB0E6C001B9EF2 /* MagnificationGestureBootcamp.swift in Sources */,
 				0B6C82C827BC50FC00333E6B /* GeometryReaderBootcamp.swift in Sources */,
+				0B6C82D527BC6A6700333E6B /* HapticsBootcamp.swift in Sources */,
 				0B068D5D27BB0634001B9EF2 /* LongPressGestureBootcamp.swift in Sources */,
 				0B068D6127BB12F1001B9EF2 /* RotationGestureBootcamp.swift in Sources */,
 			);
