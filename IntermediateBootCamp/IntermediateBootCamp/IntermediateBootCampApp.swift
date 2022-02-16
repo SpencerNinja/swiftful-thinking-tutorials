@@ -16,7 +16,8 @@ struct IntermediateBootCampApp: App {
 //            RotationGestureBootcamp()
 //            ScrollViewReaderBootcamp()
 //            GeometryReaderBootcamp()
-            HapticsBootcamp()
+//            HapticsBootcamp()
+            LocalNotificationBootcamp()
         }
     }
 }
