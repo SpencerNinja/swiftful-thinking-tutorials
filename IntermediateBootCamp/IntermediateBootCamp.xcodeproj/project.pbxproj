@@ -26,6 +26,7 @@
 		0B6C82D527BC6A6700333E6B /* HapticsBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C82D427BC6A6700333E6B /* HapticsBootcamp.swift */; };
 		0BE1515127BDA7570047C48F /* LocalNotificationBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1515027BDA7570047C48F /* LocalNotificationBootcamp.swift */; };
 		0BE1515327BDB1060047C48F /* HashableBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1515227BDB1060047C48F /* HashableBootcamp.swift */; };
+		0BE1515527BDB65E0047C48F /* ArraysBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1515427BDB65E0047C48F /* ArraysBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		0B6C82D427BC6A6700333E6B /* HapticsBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsBootcamp.swift; sourceTree = "<group>"; };
 		0BE1515027BDA7570047C48F /* LocalNotificationBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalNotificationBootcamp.swift; sourceTree = "<group>"; };
 		0BE1515227BDB1060047C48F /* HashableBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashableBootcamp.swift; sourceTree = "<group>"; };
+		0BE1515427BDB65E0047C48F /* ArraysBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArraysBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 				0B6C82D427BC6A6700333E6B /* HapticsBootcamp.swift */,
 				0BE1515027BDA7570047C48F /* LocalNotificationBootcamp.swift */,
 				0BE1515227BDB1060047C48F /* HashableBootcamp.swift */,
+				0BE1515427BDB65E0047C48F /* ArraysBootcamp.swift */,
 				0B068D5227BB05F6001B9EF2 /* Assets.xcassets */,
 				0B068D5427BB05F6001B9EF2 /* Preview Content */,
 			);
@@ -198,6 +201,7 @@
 				0B6C82CC27BC5F3900333E6B /* MaskBootcamp.swift in Sources */,
 				0B068D6327BB14B2001B9EF2 /* DragGestureBootcamp.swift in Sources */,
 				0B068D5127BB05F4001B9EF2 /* ContentView.swift in Sources */,
+				0BE1515527BDB65E0047C48F /* ArraysBootcamp.swift in Sources */,
 				0BE1515127BDA7570047C48F /* LocalNotificationBootcamp.swift in Sources */,
 				0B6C82C527BC4C7900333E6B /* ScrollViewReaderBootcamp.swift in Sources */,
 				0B6C82CA27BC568C00333E6B /* MultipleSheetsBootcamp.swift in Sources */,
