@@ -17,7 +17,8 @@ struct IntermediateBootCampApp: App {
 //            ScrollViewReaderBootcamp()
 //            GeometryReaderBootcamp()
 //            HapticsBootcamp()
-            LocalNotificationBootcamp()
+//            LocalNotificationBootcamp()
+            CoreDataBootcamp()
         }
     }
 }
