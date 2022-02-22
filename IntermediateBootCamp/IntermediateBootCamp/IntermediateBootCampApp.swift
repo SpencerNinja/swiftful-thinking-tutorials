@@ -18,7 +18,8 @@ struct IntermediateBootCampApp: App {
 //            GeometryReaderBootcamp()
 //            HapticsBootcamp()
 //            LocalNotificationBootcamp()
-            CoreDataBootcamp()
+//            CoreDataBootcamp()
+            CoreDataRelationshipsBootcamp()
         }
     }
 }
