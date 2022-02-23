@@ -20,7 +20,8 @@ struct IntermediateBootCampApp: App {
 //            LocalNotificationBootcamp()
 //            CoreDataBootcamp()
 //            CoreDataRelationshipsBootcamp()
-            BackgroundThreadBootcamp()
+//            BackgroundThreadBootcamp()
+            WeakSelfBootcamp()
         }
     }
 }
