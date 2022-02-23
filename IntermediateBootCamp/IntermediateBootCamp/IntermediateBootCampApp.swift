@@ -19,7 +19,8 @@ struct IntermediateBootCampApp: App {
 //            HapticsBootcamp()
 //            LocalNotificationBootcamp()
 //            CoreDataBootcamp()
-            CoreDataRelationshipsBootcamp()
+//            CoreDataRelationshipsBootcamp()
+            BackgroundThreadBootcamp()
         }
     }
 }
