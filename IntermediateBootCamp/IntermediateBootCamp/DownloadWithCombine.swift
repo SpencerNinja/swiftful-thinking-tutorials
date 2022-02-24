@@ -55,7 +55,6 @@ class DownloadWithCombineViewModel: ObservableObject {
             })
         // 7. store (cancel subscription if needed)
             .store(in: &cancellables)
-
     }
     
     func handleOutput(output: URLSession.DataTaskPublisher.Output) throws -> Data {
