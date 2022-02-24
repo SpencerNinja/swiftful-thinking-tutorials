@@ -13,12 +13,13 @@ import SwiftUI
     - app.quicktype.io
  */
 
-struct PostModel: Identifiable, Codable {
-    let userId: Int
-    let id: Int
-    let title: String
-    let body: String
-}
+// DUPLICATED in DownloadWithCombine file
+//struct PostModel: Identifiable, Codable {
+//    let userId: Int
+//    let id: Int
+//    let title: String
+//    let body: String
+//}
 
 class DownloadWithEscapingViewModel: ObservableObject {
     

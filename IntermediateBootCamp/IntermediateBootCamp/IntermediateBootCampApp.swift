@@ -23,7 +23,8 @@ struct IntermediateBootCampApp: App {
 //            BackgroundThreadBootcamp()
 //            WeakSelfBootcamp()
 //            CodableBootcamp()
-            DownloadWithEscapingBootcamp()
+//            DownloadWithEscapingBootcamp()
+            DownloadWithCombine()
         }
     }
 }
