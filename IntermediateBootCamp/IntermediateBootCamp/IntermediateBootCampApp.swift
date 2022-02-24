@@ -21,7 +21,8 @@ struct IntermediateBootCampApp: App {
 //            CoreDataBootcamp()
 //            CoreDataRelationshipsBootcamp()
 //            BackgroundThreadBootcamp()
-            WeakSelfBootcamp()
+//            WeakSelfBootcamp()
+            CodableBootcamp()
         }
     }
 }
