@@ -24,7 +24,8 @@ struct IntermediateBootCampApp: App {
 //            WeakSelfBootcamp()
 //            CodableBootcamp()
 //            DownloadWithEscapingBootcamp()
-            DownloadWithCombine()
+//            DownloadWithCombine()
+            TimerBootcamp()
         }
     }
 }
