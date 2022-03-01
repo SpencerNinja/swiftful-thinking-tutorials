@@ -26,7 +26,8 @@ struct IntermediateBootCampApp: App {
 //            DownloadWithEscapingBootcamp()
 //            DownloadWithCombine()
 //            TimerBootcamp()
-            SubscriberBootcamp()
+//            SubscriberBootcamp()
+            FileManagerBootcamp()
         }
     }
 }
