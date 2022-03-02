@@ -20,6 +20,7 @@ struct HomeView: View {
             // content layer
             VStack {
                 homeHeader
+                
                 Spacer(minLength: 0)
             }
         }
