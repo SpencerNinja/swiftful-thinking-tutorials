@@ -6,10 +6,10 @@
 //
 
 import Foundation
+import CloudKit
 
 // API Info = coingecko.com
 /*
- 
  URL: https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=250&page=1&sparkline=true&price_change_percentage=24h
  
  JSON Response:
@@ -48,7 +48,6 @@ import Foundation
      },
      "price_change_percentage_24h_in_currency": -0.0023547412455416313
     }
- 
  */
 
 struct CoinModel: Identifiable, Codable {
@@ -97,7 +96,15 @@ struct CoinModel: Identifiable, Codable {
     }
     
     func updateHoldings(amount: Double) -> CoinModel {
-        return CoinModel(id: <#T##String#>, symbol: <#T##String#>, name: <#T##String#>, image: <#T##String#>, currentPrice: <#T##Double#>, marketCap: <#T##Double?#>, marketCapRank: <#T##Double?#>, fullyDilutedValuation: <#T##Double?#>, totalVolume: <#T##Double?#>, high24H: <#T##Double?#>, low24H: <#T##Double?#>, priceChange24H: <#T##Double?#>, priceChangePercentage24H: <#T##Double?#>, marketCapChange24H: <#T##Double?#>, marketCapChangePercentage24H: <#T##Double?#>, circulatingSupply: <#T##Double?#>, totalSupply: <#T##Double?#>, maxSupply: <#T##Double?#>, ath: <#T##Double?#>, athChangePercentage: <#T##Double?#>, athDate: <#T##String?#>, atl: <#T##Double?#>, atlChangePercentage: <#T##Double?#>, atlDate: <#T##String?#>, lastUpdated: <#T##String?#>, sparklineIn7D: <#T##SparklineIn7D?#>, priceChangePercentage24HInCurrency: <#T##Double?#>, currentHoldings: <#T##Double?#>)
+        return CoinModel(id: id, symbol: symbol, name: name, image: image, currentPrice: currentPrice, marketCap: marketCap, marketCapRank: marketCapRank, fullyDilutedValuation: fullyDilutedValuation, totalVolume: totalVolume, high24H: high24H, low24H: low24H, priceChange24H: priceChange24H, priceChangePercentage24H: priceChangePercentage24H, marketCapChange24H: marketCapChange24H, marketCapChangePercentage24H: marketCapChangePercentage24H, circulatingSupply: circulatingSupply, totalSupply: totalSupply, maxSupply: maxSupply, ath: ath, athChangePercentage: athChangePercentage, athDate: athDate, atl: atl, atlChangePercentage: atlChangePercentage, atlDate: atlDate, lastUpdated: lastUpdated, sparklineIn7D: sparklineIn7D, priceChangePercentage24HInCurrency: priceChangePercentage24HInCurrency, currentHoldings: amount)
+    }
+    
+    var currentHoldingsValue: Double {
+        return(currentHoldings ?? 0) * currentPrice
+    }
+    
+    var rank: Int {
+        return Int(marketCapRank ?? 0)
     }
     
 }
