@@ -39,7 +39,6 @@ class LocalFileManager {
                 return nil
             }
         return UIImage(contentsOfFile: url.path)
-                
     }
     
     private func createFolderIfNeeded(folderName: String) {
